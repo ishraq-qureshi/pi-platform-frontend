@@ -1,0 +1,19 @@
+.transition-screen-enter {
+	opacity: 0;
+	transform: translateX(20px);
+}
+.transition-screen-enter-active {
+	opacity: 1;
+	transform: translateX(0);
+	transition: opacity 1s, transform 1s;
+}
+.transition-screen-exit {
+	opacity: 1;
+	transform: translateX(20px);
+	transition: opacity 1s, transform 1s;
+}
+.transition-screen-exit-active {
+	opacity: 0;
+	transform: translateX(20px);
+	transition: opacity 1s, transform 1s;
+}
